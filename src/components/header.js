@@ -7,16 +7,15 @@ export default () => {
     <header className="c-header">
       <nav className="c-header__nav">
         <div className="c-header__title">
-          <span role="img" aria-label="Today">
+          <span role="img" aria-label="Radek">
             🗓️
           </span>
-          <span role="img" aria-label="I">
+          <span role="img" aria-label="learned">
             😄
           </span>
-          <span role="img" aria-label="learned">
+          <span role="img" aria-label="today">
             ✏️
-          </span>{' '}
-          #TIL <span aria-hidden="true">(Today I learned)</span>
+          </span>
         </div>
         <Link to={'/tutorial/'} className="c-header__button o-btn">
           Set up your own!
